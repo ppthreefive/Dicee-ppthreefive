@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity
         final int[] diceArray = {R.drawable.dice1, R.drawable.dice2, R.drawable.dice3,
                 R.drawable.dice4, R.drawable.dice5, R.drawable.dice6};
 
-        Button rollButton = findViewById(R.id.roll_button);
+        Button rollButton = findViewById(R.id.rollButton);
         rollButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
